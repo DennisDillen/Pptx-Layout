@@ -1,0 +1,29 @@
+{
+  "template_id": "wandp-vorlage-v1",
+  "title": "Beispielhafte Marktthese mit belastbaren Quellen",
+  "summary": "Die Marktgröße bleibt stabil, während sich die Nachfrage zwischen den Segmenten verschiebt.",
+  "notes_header": "Anmerkungen",
+  "footnote": "Quellen: Eurostat, Sugra und Webrecherche. Stand: 09.09.2026.",
+  "section_titles": [
+    "Marktvolumen [Deutschland, 2020–2025]",
+    "Marktprognose [Deutschland, 2025–2030]",
+    "Top-Länder [EU-27, 2024]",
+    "Segmentstruktur [Deutschland, 2025]"
+  ],
+  "charts": [
+    {
+      "slot": "chart_1",
+      "categories": ["2020", "2021", "2022", "2023", "2024"],
+      "series": [
+        {"name": "Deutschland", "values": [9.0, 10.2, 9.0, 9.2, 10.0]},
+        {"name": "Europa", "values": [7.2, 7.5, 7.7, 7.9, 8.1]}
+      ]
+    }
+  ],
+  "text_fields": {
+    "1021": "Deutschland",
+    "1022": "Belgien",
+    "1023": "Frankreich"
+  }
+}
+

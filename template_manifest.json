@@ -1,0 +1,49 @@
+{
+  "template_id": "wandp-vorlage-v1",
+  "source_file": "Vorlage.pptx",
+  "slide_count": 1,
+  "slide_size_emu": {
+    "width": 12192000,
+    "height": 6858000
+  },
+  "text_slots": {
+    "title": 2,
+    "summary": 3,
+    "notes_header": 4,
+    "chart_title_1": 6,
+    "chart_title_2": 8,
+    "chart_title_3": 9,
+    "chart_title_4": 12,
+    "footnote": 682
+  },
+  "chart_slots": {
+    "chart_1": {
+      "shape_id": 126,
+      "template_type": "column_stacked",
+      "position_locked": true
+    },
+    "chart_2": {
+      "shape_id": 35,
+      "template_type": "doughnut",
+      "position_locked": true
+    },
+    "chart_3": {
+      "shape_id": 606,
+      "template_type": "column_clustered",
+      "position_locked": true
+    },
+    "chart_4": {
+      "shape_id": 36,
+      "template_type": "bar_stacked",
+      "position_locked": true
+    }
+  },
+  "layout_lock": {
+    "preserve_slide_size": true,
+    "preserve_masters_and_layouts": true,
+    "preserve_existing_shape_geometry": true,
+    "preserve_logo_footer_and_page_number": true,
+    "allow_chart_slot_removal": true
+  }
+}
+

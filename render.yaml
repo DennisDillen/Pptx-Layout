@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: wandp-pptx-renderer
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    healthCheckPath: /health
+    envVars:
+      - key: RENDERER_API_KEY
+        generateValue: true
+
